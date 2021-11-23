@@ -9,6 +9,7 @@ const Home = () => {
       {posts.map((post) => (
         <Card
           key={post.id}
+          id={post.id}
           title={post.title}
           image={post.img}
           desc={post.desc}
